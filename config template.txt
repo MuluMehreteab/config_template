@@ -1,5 +1,6 @@
 ipython
-import csv
+
+import csv                            (start from here to use in python)
 from jinja2 import Template
 
 source_file = "switch-ports.csv"
@@ -23,7 +24,7 @@ inteface_configs += inteface_config
 
 
 with open("interface_configs.txt", "w") as f:
-f.write(interface_configs)
+f.write(interface_configs)                                  (end here to use for python)
 
 
 exit from ipython
